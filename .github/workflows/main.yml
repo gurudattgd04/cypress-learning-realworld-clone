@@ -18,6 +18,7 @@ jobs:
       - run: node -p 'os.cpus()'
       - run: yarn types
       - run: yarn test:unit:ci
+      - run: yarn build:ci
         # the entire command will automatically be prefixed with "npm"
         # and we need the second "npm" to execute "cypress run ..." command line.
       - name: Run tests
