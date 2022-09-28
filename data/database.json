@@ -74,6 +74,17 @@
       "balance": 75369,
       "createdAt": "2020-02-11T21:26:46.510Z",
       "modifiedAt": "2020-05-21T15:15:33.944Z"
+    },
+    {
+      "id": "UhcoIUngh",
+      "uuid": "78cb50ce-1368-4405-9a68-4ec932c931aa",
+      "firstName": "Gurudatt",
+      "lastName": "A",
+      "username": "gurudatt26",
+      "password": "$2a$10$3ytZ7MoHzv5TJT8Lkvv4J.6E1M9Uq7PTO9mh8vvPOZsO9T56DWenq",
+      "balance": 0,
+      "createdAt": "2022-09-22T02:58:46.035Z",
+      "modifiedAt": "2022-09-22T02:58:46.035Z"
     }
   ],
   "contacts": [
@@ -253,6 +264,17 @@
       "isDeleted": false,
       "createdAt": "2019-09-30T14:20:07.043Z",
       "modifiedAt": "2020-05-21T22:40:28.910Z"
+    },
+    {
+      "id": "rYA-WbQeW",
+      "uuid": "792dc134-1209-4398-a5fa-5e6ac5d177df",
+      "userId": "UhcoIUngh",
+      "bankName": "MyBankAccount",
+      "accountNumber": "212312323",
+      "routingNumber": "123452312",
+      "isDeleted": false,
+      "createdAt": "2022-09-22T02:59:41.641Z",
+      "modifiedAt": "2022-09-22T02:59:41.641Z"
     }
   ],
   "transactions": [
@@ -9937,14 +9959,6 @@
       "transactionId": "SXHgQh46s7A",
       "createdAt": "2020-05-07T03:37:29.711Z",
       "modifiedAt": "2020-05-21T02:32:06.555Z"
-    },
-    {
-      "id": "WuJLJLGuVy",
-      "uuid": "106c1f0f-e92c-40ee-b3f7-f067d9914b76",
-      "userId": "t45AiwidW",
-      "transactionId": "7XaoAWOrn13",
-      "createdAt": "2022-09-28T15:18:22.049Z",
-      "modifiedAt": "2022-09-28T15:18:22.049Z"
     }
   ],
   "comments": [
