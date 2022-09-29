@@ -39,10 +39,10 @@ describe("SignInForm", () => {
     cy.get("[data-test*=signin-username]").type("Katharina_Bernier");
     cy.get("[data-test*=signin-password]").type("s3cret");
     cy.get("[data-test*=signin-submit]").click();
-    cy.percySnapshot("sign in form");
 
-    cy.wait("@loginPost");
+    // cy.wait("@loginPost");
 
     cy.get("[data-test*=signin-error]").should("not.exist");
+    cy.percySnapshot("sign in form");
   });
 });
