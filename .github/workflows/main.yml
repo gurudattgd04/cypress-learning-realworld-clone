@@ -22,6 +22,6 @@ jobs:
         # the entire command will automatically be prefixed with "npm"
         # and we need the second "npm" to execute "cypress run ..." command line.
       - name: Percy Test
-        run: npx percy exec -- cypress run --component
+        run: npx percy exec -- cypress run --component --b chrome
         env:
           PERCY_TOKEN: 9c1697c92b9c851f162d9bb12e08eddd25f9d7fc075a36fa28c73ab54c39e797
