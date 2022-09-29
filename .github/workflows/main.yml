@@ -21,9 +21,7 @@ jobs:
       - run: yarn build:ci
         # the entire command will automatically be prefixed with "npm"
         # and we need the second "npm" to execute "cypress run ..." command line.
-      - name: Run tests
-        uses: percy/exec-action@v0.3.1
-        with:
-          custom-command: "npm run cypress:run:component"
+      - name: Percy Test
+        run: npx percy exec -- cypress run --component
         env:
           PERCY_TOKEN: e7f48169aab70eb5df4c7f923c7c78fb65cc6380494679877bb21a963ae32ecc
