@@ -140,7 +140,7 @@ const SignInForm: React.FC<Props> = ({ authService }) => {
                 type="submit"
                 fullWidth
                 variant="contained"
-                color="primary"
+                color="secondary"
                 className={classes.submit}
                 data-test="signin-submit"
                 disabled={!isValid || isSubmitting}
